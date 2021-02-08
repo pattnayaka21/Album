@@ -1,0 +1,54 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+.bold {
+    font-weight: 400;
+}
+
+.nav{
+    background-color: rgba(51, 49, 49, 0.425);
+    padding: 10px;
+}
+
+.bg-img{
+    background-image: url(https://source.unsplash.com/weekly?highway);
+    background-position: center;
+    position: relative;
+    min-height: 350px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    position: center;
+
+}
+
+.bg-img .content{
+    position: absolute;
+    top: 40%;
+    left: 15%;
+}
+
+.gallery-content{
+    display: flexbox;
+}
+
+.box-1{
+  
+    background-color: rgba(255, 0, 0, 0.425);
+}
+.box-2{
+  
+    background-color: rgba(0, 255, 0, 0.377);
+}
+.box-3{
+   
+    background-color: rgba(17, 0, 255, 0.445);
+}
