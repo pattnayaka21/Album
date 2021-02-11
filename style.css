@@ -1,3 +1,51 @@
+/*Added By ASH (From Here)*/
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 50px;
+  text-align: center;
+  font-family : Florence, cursive;
+}
+
+#London {background-image:url("https://www.londoncouncils.gov.uk/sites/default/files/styles/image_1200x430/public/London%20city%20scape%20carousel.png?itok=UQz6jrV6");
+background-repeat: no-repeat;
+  background-size: cover;}
+#Paris {background-image:url("https://www.wallpaperflare.com/static/930/838/330/paris-france-eiffel-tower-night-wallpaper.jpg");
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+    background-size: cover;
+  }
+#Tokyo {background-image:url("https://www.gotokyo.org/en/plan/tokyo-outline/images/main.jpg");
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+  background-size: cover;
+  }
+#Oslo {background-image:url("https://www.gvsu.edu/studyabroad/oasis/files/img/programs/F90B96C5-C177-8B6A-4DD3019D3BA84BB6/photo/3F67F3B0-9453-215B-31C7FF3377921122/original.jpg");
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+/*Added By ASH (To Here)*/
 * {
     margin: 0px;
     box-sizing: border-box;
