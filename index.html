@@ -6,6 +6,52 @@
     <title>ALBUM 2021</title>
     <link rel="stylesheet" href="style.css">
 </head>
+    
+    /*Added By ASH (From Here)*/
+<div id="London" class="tabcontent">
+  <h1>London</h1>
+  <p><h3>London is the capital city of England.</h3></p>
+</div>
+
+<div id="Paris" class="tabcontent">
+  <h1>Paris</h1>
+  <p><h3>Paris is the capital of France.</h3></p>
+</div>
+
+<div id="Tokyo" class="tabcontent">
+  <h1>Tokyo</h1>
+  <p><h3>Tokyo is the capital of Japan.</h3></p>
+</div>
+
+<div id="Oslo" class="tabcontent">
+  <h1>Oslo</h1>
+  <p><h3>Oslo is the capital of Norway.</h3></p>
+</div>
+
+<button class="tablink" onclick="openCity('London', this, 'red')" id="defaultOpen">London</button>
+<button class="tablink" onclick="openCity('Paris', this, 'green')">Paris</button>
+<button class="tablink" onclick="openCity('Tokyo', this, 'blue')">Tokyo</button>
+<button class="tablink" onclick="openCity('Oslo', this, 'orange')">Oslo</button>
+
+<script>
+function openCity(cityName,elmnt,color) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+  document.getElementById(cityName).style.display = "block";
+  elmnt.style.backgroundColor = color;
+
+}
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+/*Added By ASH (From Here)*/
 <body>
     <div class="nav">
         <h4><span class="bold">HIGH</span>WAY</h4>
